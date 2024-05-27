@@ -5,9 +5,17 @@
   box-sizing: border-box;
 }
 
-/* Remove default margin */
+/* Remove default margin, padding, font settings */
 * {
   margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
 }
 
 /* Accessible line height and improved text rendering */

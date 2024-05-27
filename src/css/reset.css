@@ -18,6 +18,17 @@ ol[role="list"] {
   list-style: none;
 }
 
+/* Smooth scrolling on the whole document */
+ html {
+	scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
 /* Accessible line height and improved text rendering */
 body {
   line-height: 1.5;
